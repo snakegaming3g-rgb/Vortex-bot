@@ -3,18 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vortex Dashboard</title>
+<title>💫 Vortex Dashboard</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="style.css">
+
+<style>
+.card {
+    background-color: #1a1a2e;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 0.5rem;
+    text-align: left;
+}
+a {
+    color: #60a5fa;
+}
+</style>
 </head>
-<body class="p-6">
+<body class="p-6 text-white bg-gray-900">
 <div class="max-w-6xl mx-auto">
     <h1 class="text-4xl font-bold mb-6">💫 Vortex Dashboard • Made by Anmol</h1>
-    
+
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <!-- Wallets -->
         <div class="card">
-            <h2>Wallets Tracked</h2>
+            <h2 class="text-2xl mb-4">Wallets Tracked</h2>
             <table>
                 <thead>
                     <tr><th>User</th><th>Label</th><th>Address</th><th>Last Balance</th></tr>
@@ -34,7 +53,7 @@
 
         <!-- Transactions -->
         <div class="card">
-            <h2>Recent Transactions</h2>
+            <h2 class="text-2xl mb-4">Recent Transactions</h2>
             <table>
                 <thead>
                     <tr><th>TxID</th><th>Address</th><th>Amount</th><th>Time</th></tr>
