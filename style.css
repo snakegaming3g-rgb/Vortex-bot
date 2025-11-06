@@ -1,0 +1,76 @@
+/* Body background + font */
+body {
+    background: #1a0f0f; /* dark maroonish black */
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Card style */
+.card {
+    background: #2b0f0f; /* deep red background */
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 20px #ff2e2e; /* red glow */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px #ff4c4c; /* brighter glow on hover */
+}
+
+/* Headings */
+h1, h2 {
+    color: #ff4c4c;
+    text-shadow: 0 0 10px #ff1a1a, 0 0 20px #ff0000;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+th, td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #550000;
+    text-align: left;
+}
+th {
+    color: #ff1a1a;
+    text-shadow: 0 0 5px #ff2e2e;
+}
+
+/* Table links */
+a {
+    color: #ff6666;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ff9999;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #ff6666;
+    text-shadow: 0 0 5px #ff2e2e;
+}
+
+/* Scrollbar (optional neon effect) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1a0f0f;
+}
+::-webkit-scrollbar-thumb {
+    background: #ff2e2e;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ff4c4c;
+}
